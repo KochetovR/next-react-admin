@@ -5,6 +5,7 @@ export const UserCreate = () => {
     const redirect = useRedirect();
 
     const onSuccess = (data) => {
+        console.log('data:', data)
         notify(`Changes saved`);
         redirect(`/users`);
     };

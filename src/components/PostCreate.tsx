@@ -5,6 +5,7 @@ export const PostCreate = () => {
     const redirect = useRedirect();
 
     const onSuccess = (data) => {
+        console.log('data:', data)
         notify(`Changes saved`);
         redirect(`/posts`);
     };

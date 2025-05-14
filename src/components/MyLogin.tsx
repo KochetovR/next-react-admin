@@ -1,5 +1,3 @@
-import { Box, Link } from '@mui/material';
-import { Link as RouterLink } from 'react-router-dom';
 import { Login, LoginForm } from 'react-admin';
 
 export const MyLogin = () => (

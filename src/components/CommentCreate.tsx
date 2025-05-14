@@ -5,7 +5,6 @@ import {
     SimpleForm,
     TextInput,
     ReferenceInput,
-    EmailField,
     FileInput, FileField
 } from 'react-admin';
 
@@ -14,6 +13,7 @@ export const CommentCreate = () => {
     const redirect = useRedirect();
 
     const onSuccess = (data) => {
+        console.log('data:', data)
         notify(`Changes saved`);
         redirect(`/comments`);
     };
