@@ -25,6 +25,6 @@ export const authProvider: AuthProvider = {
     },
     async getIdentity() {
         const username = localStorage.getItem('username');
-        return { id: username, fullName: username };
+        return { id: username || '', fullName: username || '' };
     },
 };
