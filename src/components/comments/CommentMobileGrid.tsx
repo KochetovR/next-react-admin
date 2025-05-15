@@ -51,7 +51,7 @@ export const CommentMobileGrid = () => {
                             <Typography>
                                 <TextField source="body" />
                             </Typography>
-                            <ReferenceField source="postId" reference="posts" color='primary' />
+                            <ReferenceField source="postId" reference="posts" />
                         </CardContent>
                     </Card>
                 </RecordContextProvider>

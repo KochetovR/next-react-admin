@@ -45,7 +45,7 @@ export const PostMobileGrid = () => {
                             <Typography>
                                 <TextField source="body" />
                             </Typography>
-                            <ReferenceField source="userId" reference="users" color={"primary"} />
+                            <ReferenceField source="userId" reference="users" />
                         </CardContent>
                     </Card>
                 </RecordContextProvider>
